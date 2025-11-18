@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프론트엔드 - ESTCamp</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="프론트엔드 - ESTCamp">
+    <meta property="og:url" content="https://haini000.github.io/team_project_1/">
+    <meta property="og:image" content="https://haini000.github.io/team_project_1/images/banner.png">
+    <meta property="og:description" content="이스트캠프 프론트엔드 교육과정 소개페이지입니다.">
+    <link rel="icon" type="image/png" href="./images/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="./images/icons/favicon.svg">
+    <link rel="shortcut icon" href="./images/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="MyWebSite">
+    <link rel="manifest" href="./images/icons/site.webmanifest">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- header 파트 구현 - 김세은 -->
+    <header>
+        <div class="container">
+            <h1>
+                <a href="/">
+                    <img src="images/east_logo.png" alt="logo">
+                    <span class="hidden">est</span>
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="btn">로그인</a></li>
+                    <li><a href="index.html" class="btn btn_bg">회원가입</a></li>
+                    <li><button class="material-symbols-outlined">menu</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- main - 박성수, 신찬섭 -->
+        <section>
+            <!-- 상단 이미지 파트 구현 -->
+            <h2 class="visually-hidden">소개 이미지</h2>
+            <div class="banner">
+                <img src="images/banner.png" alt="" class="abc">
+            </div>
+        </section>
+        <section class="text-introduce">
+            <!-- 프론트엔드 개발 12기 파트 - 박성수 -->
+            <div class="title-area flex flex-col items-center">
+                <p>이스트 부트캠프</p>
+                <h2 class="section_tt">프론트엔드 개발 12기</h2>
+                <hr class="divide-line">
+                <p>디지털 시대의 필수 언어, 미래 웹을 설계하는 힘! 프론트엔드 개발자 부트캠프 12기로 만나보세요.</p>
+            </div>
+            <ol class="flex justify-center">
+                <li>
+                    <h3><img src="./images/text_introduce_part/book.png" alt="">교육 내용</h3>
+                    <div class="course-intro flex flex-col items-center">
+                        <p>100% 온라인</p>
+                        <p>프론트엔드 개발과정</p>
+                        <p>React, HTML, CSS JavaScript</p>
+                    </div>
+                </li>
+                <li>
+                    <h3><img src="./images/text_introduce_part/calendar.png" alt="">교육 일정</h3>
+                    <div class="schedule-intro flex flex-col items-center">
+                        <h4>모집 기간</h4>
+                        <p>~ 2025. 12. 08 (월)</p>
+                        <h4>교육 기간</h4>
+                        <p>2025. 12. 09 (화)<br>~ 2026. 04. 27 (월)</p>
+                    </div>
+                </li>
+                <li class="tuition-intro">
+                    <h3><img src="./images/text_introduce_part/money.png" alt="">수강료</h3>
+                    <p>13,358,400원</p>
+                    <p>0원</p>
+                    <hr class="tuition-intro-divide">
+                    <h3><img src="./images/text_introduce_part/money.png" alt="">훈련 장학금</h3>
+                    <p>316,000원</p>
+                </li>
+            </ol>
+        </section>
+        <section class="reason flex flex-col">
+            <!-- 선택 이유 파트 - 박성수 -->
+            <h2>수강생들이 여전히<br><strong>{ 프론트엔드 }</strong> 를 선택하는 이유</h2>
+            <ul class="flex justify-center">
+                <li>
+                    <div>1</div>
+                    <h3>채용 공고 상세 검색</h3>
+                    <img src="./images/reason/reason_1.png" alt="채용 공고 상세 검색">
+                </li>
+                <li>
+                    <div>2</div>
+                    <h3>개발자 채용 수요</h3>
+                    <img src="./images/reason/reason_2.png" alt="개발자 채용 수요">
+                    <p>OKKT, &lt;신입개발자 채용 동향&gt;
+                    </p>
+                    <p>설문조사 결과 (2025)</p>
+                </li>
+                <li>
+                    <div>3</div>
+                    <h3>채용 확대 예상 직무</h3>
+                    <img src="./images/reason/reason_3.png" alt="채용 확대 예상 직무">
+                </li>
+                <li>
+                    <div>4</div>
+                    <h3>비개발 직군 대비 신입 예상 연봉</h3>
+                    <img src="./images/reason/reason_4.png" alt="비개발 직군 대비 신입 예상 연봉">
+                </li>
+            </ul>
+        </section>
+        <section class="advantage">
+            <div class="title">
+                <h2 class="section_tt">이스트 캠프 교육 합류 후 얻게 될 이점</h2>
+            </div>
+
+            <div class="advantage-list flex items-center justify-center">
+                <div class="advantage-item">
+                    <p class="before">시작 전부터 성장 준비</p>
+                    <div class="after">
+                        <p>
+                            개강 전 온라인<br>
+                            학습 컨텐츠 재공<br>
+                            사전 학습을 위한<br>
+                            맞춤형 VOD 컨텐츠 제공
+                        </p>
+                    </div>
+                </div>
+
+                <div class="advantage-item">
+                    <p class="before">자격증, 함께 도전!</p>
+                    <div class="after">
+                        <p>자격증 취득 지원</p>
+                        <p>
+                            교육에 100% 몰두할 수 있도록<br>
+                            자격증 취득 지원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="advantage-item">
+                    <p class="before">현업에서 듣는 진짜 이야기</p>
+                    <div class="after">
+                        <p>
+                            이스트소프트 현직자<br>
+                            및 커리어 코치
+                        </p>
+                        <p>
+                            현직자가 들려주는 현업 이야기,<br>
+                            커리어 코치가 알려주는<br>
+                            이력서 작성 및 면접 노하우
+                        </p>
+                    </div>
+                </div>
+
+                <div class="advantage-item">
+                    <p class="before">끝까지 함께하는 커리어 케어</p>
+                    <div class="after">
+                        <p>
+                            수료 후에도 이어지는 <br>
+                            커리어 코칭
+                        </p>
+                        <p>
+                            수료 후 취업까지<br>
+                            이어지는 직무 특강과<br>
+                            취업 지원 프로그램
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="line">
+        <section class="benefits">
+            <!-- 수료생만의 혜택 구현 - 신찬섭 -->
+            <h2 class="section_tt">이스트 캠프 수료생만의 혜택</h2>
+
+            <div class="benefit-list flex justify-center">
+                <div>
+                    <div class="benefit-item">
+                        <span class="material-symbols-outlined icon">school</span>
+                        <div class="content">
+                            <h3>모든 수료생</h3>
+                            <p>
+                                이스트소프트 및 이스트 계열사<br>
+                                KDT 인턴십 지원 시 서류 전형 우대
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <span class="material-symbols-outlined icon">military_tech</span>
+                        <div class="content">
+                            <h3>우수 수료자</h3>
+                            <p>
+                                4개월 KDT 인턴십 진행<br>
+                                (*면접 전형 통과시) 즉시 면접 기회 제공
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <span class="material-symbols-outlined icon">work</span>
+                    <div class="content">
+                        <h3>취업지원 프로그램</h3>
+                        <ol class="support-list flex flex-col">
+                            <li>
+                                <span class="material-symbols-outlined number-icon">counter_1</span>
+                                <p>프로젝트 결과물을 활용한 포트폴리오 작성 지도</p>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined number-icon">counter_2</span>
+                                <p>취업 연계 프로그램 제공</p>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined number-icon">counter_3</span>
+                                <p>모의면접 자기소개서 클리닉 실무자 1:1 첨삭으로 기업이 원하는 이력서 작성</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="curriculum-re">
+            <!-- 말풍선, 커리큘럼 파트 구현 - 김세은 -->
+            <div class="hero-text">
+                <h2>
+                    <span class="core">잘 하는 신입</span>에게
+                    <br>
+                    <span class="core">필요한 역량</span>
+                    <br>
+                    현직자가 인정한
+                    <br>
+                    커리큘럼에 담았습니다.
+                </h2>
+            </div>
+            <div class="insight-boxes flex flex-col justify-center">
+                <div class="speech-box">
+                    <img src="images/Review_logo_1.png" alt="삼성 로고">
+                    <p>"React와 Redux를 활용한 상태 관리 학습은 유지보수에 강하고 확장 가능한 코드를 작성할 수 있을 것 같습니다."</p>
+                </div>
+                <div class="speech-box">
+                    <img src="images/Review_logo_2.png" alt="네이버 로고">
+                    <p>"React와 TypeScript를 활용해 실무에서 바로 적용 가능한 기술을 배울 수 있겠다는 생각이 듭니다."</p>
+                </div>
+                <div class="speech-box">
+                    <img src="images/Review_logo_3.png" alt="카카오뱅크 로고">
+                    <p>"Tailwind CSS같은 현대적스타일링 기술로 복잡한 디자인 시스템을 효율적으로 구현하는 방법은 꼭 알아야죠."</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="de-cur container">
+            <!-- 상세 커리큘럼 파트 구현 - 신찬섭 -->
+            <h2 class="section_tt">상세 커리큘럼</h2>
+            <div>
+                <ul class="tab-menu">
+                    <li><a href="#">SKILL SET</a></li>
+                    <li><a href="#month1">1개월차</a></li>
+                    <li><a href="#month2">2개월차</a></li>
+                    <li><a href="#month3">3개월차</a></li>
+                    <li><a href="#month4">4개월차</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-contents">
+                <div id="skill">기술 상세</div>
+                <div id="month1" class="active">
+                    <dl>
+                        <dt>HTML5 & Semantic Web</dt>
+                        <dd>anstj 문서 구조</dd>
+                        <dd>시멘틱 코드</dd>
+                        <dd>웹 접근성</dd>
+                        <dd>SEO 최적화</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>CSS3</dt>
+                        <dd>선택자</dd>
+                        <dd>박스모델</dd>
+                        <dd>Flexbox</dd>
+                        <dd>Grid</dd>
+                        <dd>에니메이션</dd>
+                        <dd>반응형 웹</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>CSS Framework</dt>
+                        <dd>ReilwindCSS</dd>
+                        <dd>박스 모델</dd>
+                        <dd>Bootstrap</dd>
+                        <dd class="supplement">유틸리티 클래스</dd>
+                        <dd class="supplement">컴포넌트</dd>
+                        <dd class="supplement">커스터마이징</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Git & Github</dt>
+                        <dd>버전 관리</dd>
+                        <dd>원격 저장소</dd>
+                        <dd>GitHup Pages 배포</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Figma</dt>
+                        <dd>Ul/UX 설계</dd>
+                        <dd>와이어프레임</dd>
+                        <dd>프로토타이핑</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>기초 웹 프로젝트</dt>
+                        <dd>HTML/CSS</dd>
+                        <dd class="supplement">레이아웃 구현</dd>
+                    </dl>
+                </div>
+                <div id="month2">3개월차 상세</div>
+                <div id="month3">3개월차 상세</div>
+                <div id="month4">4개월차 상세</div>
+            </div>
+        </section>
+
+        <section class="review flex flex-col">
+            <!-- 수강후기 파트 - 박성수 -->
+            <h2 class="section_tt">프론트엔드 수강후기</h2>
+            <ol class="content flex">
+                <li></li>
+                <li>
+                    <h3>"기본기는 물론 심화된 과정에 대해 이해할 수 있었습니다."</h3>
+                    <p>비전공자에다가 독학으로만 배웠어서 그간 기본기가 부족했었는데, 이번 과정 덕분에 기본기는 물론 심화된 프로그래밍에 대해 이해할 수 있었습니다.</p>
+                    <p>작성자 : 김**</p>
+                    <p class="score">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                </li>
+                <li>
+                    <h3>"투자한 시간만큼 비례하여 얻을 수 있는 좋은 기회였습니다."</h3>
+                    <p>프론트엔드에 관련된 핵심 역량들을 얻을 수 있었고, 강사님과 멘토님, 그리고 보이지 않는곳에서 수강생들을 케어해주시는 운영 담당자분들 덕분에 좋은 성과를 얻어갈 수
+                        있었습니다.</p>
+                    <p>작성자 : 이**</p>
+                    <p class="score">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                </li>
+                <li>
+                    <h3>"강사진과 멘토의 도움으로 많은 지식과 강점을 채워 수료했습니다. "</h3>
+                    <p>개발 분야에 지식이 없는 상태에서 시작했으나 강사진과 멘토, 운영진분들의 도움으로 많은 지식과 강점을 채워 수료했습니다. 전문 지식 훈련인 만큼 참여 전에도 기본 지식을
+                        얕게라도 쌓고 참여하면 더 도움이 많이 될 것 입니다.</p>
+                    <p>작성자 : 박**</p>
+                    <p class="score">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                </li>
+                <li>
+                    <h3>"열정적인 강사님과 멘토님 덕분에 많은 것을 배울 수 있었고,"</h3>
+                    <p>팀프로젝트를 통해 협업 능력도 키울 수 있었습니다. 독학이었다면 힘들었을 부분들을 함께 고민하고 해결할 수 있어 비전공자에게 많은 도움이 되었습니다.</p>
+                    <p>작성자 : 임**</p>
+                    <p class="score">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                </li>
+                <li></li>
+            </ol>
+            <a class="flex justify-center items-center">후기 더보기</a>
+        </section>
+        <section class="information">
+            <!-- 신청 및 지원 안내 파트 구현 -->
+            <h2 class="section_tt">신청 및 지원 안내</h2>
+            <div class="content flex justify-center">
+                <div class="basic-information flex flex-col">
+                    <div>
+                        <h3>교육 과정</h3>
+                        <div>
+                            <p>프론트엔드 개발 과정 12기</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>교육 일정</h3>
+                        <div>
+                            <p>2025. 12. 09 (화)</p>
+                            <p>~</p>
+                            <p>2026. 04. 27 (월)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>수강료</h3>
+                        <div>
+                            <p class="strike">13,358,400원</p>
+                            <p>0원</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="course-information flex flex-col">
+                    <li>
+                        <p>1</p>
+                        <h3>간편 지원</h3>
+                        <p>12월 08일 (월)까지 사이트 내 지원</p>
+                    </li>
+                    <li>
+                        <p>2</p>
+                        <h3>결과 안내</h3>
+                        <p>지원 후, 영업일 기준 3일 이내 결과 안내</p>
+                    </li>
+                    <li>
+                        <p>3</p>
+                        <h3>고용24 수강신청</h3>
+                        <p>내일배움카드 발급 후 고용 24 수강신청</p>
+                    </li>
+                    <li>
+                        <p>4</p>
+                        <h3>최종 합류</h3>
+                        <p>개강 1주일 전 온보딩 메일 발송, 개강 및 OT진행</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="faq flex flex-col items-center justify-center">
+            <!-- FAQ 파트 구현 -->
+            <h2 class="section_tt">자주 묻는 질문</h2>
+            <div>
+                <details>
+                    <summary>Q. 지원 자격이 있나요?<span>▼</span></summary>
+                    <p>내일배움카드를 보유하고 있거나 발급 가능하고, 교육 기간에 온전히 참여하실 수 있다면 누구든지 지원가능합니다.
+                        다만 하루 8시간 동안의 수업에 몰입하여 교육을 받기 어려운 경우 진행에 어려움이 있을 수 있습니다.
+                        ✅ 내일배움카드 발급 받기
+                        고용 24 검색창 아래의 국민내일배움카드 → 국민내일배움카드 발급 → 발급신청
+                        ✅ 내일배움카드 발급 제외 대상자
+                        아래에 해당하시는 분들께서는 내일배움카드 발급 대상자가 아닙니다.
+                        - 현직 공무원
+                        - 사립학교 교직원
+                        - 졸업예정자 이외 재학생 (졸업예정자의 경우 발급 가능)
+                        - 연매출 1억 5천만원 이상의 자영업자
+                        - 월 임금 300만원 이상인 대규모 기업 종사자(45세 미만)
+                        - 특수형태근로종사자
+                        *내일배움카드 발급 가능 여부는 고용노동부 1350 또는 거주지 관할 고용센터에서 확인하여 주시기 바랍니다.
+                    </p>
+                </details>
+                <details>
+                    <summary>Q. 다른 기관에서 교육을 받았는데 신청이 가능할까요?<span>▼</span></summary>
+                    <p>➡️ 나의 이전 교육과정 조회 방법
+                        고용 24 로그인 → 나의 정보 → 나의 훈련 이력위와 같이 확인 후 이전 KDT 과정 수강 이력(수료, 하차, 포기 모두 포함)이 있다면, 신청이 불가한 것은 아니나 자비
+                        부담금 발생합니다. 그 외에 K-디지털트레이닝 이외의 과정을 수강하신 경우 문제없이 수강신청 가능합니다‍️ 🙆🏻‍♂️
+                    </p>
+                </details>
+                <details>
+                    <summary>Q. 학교, 직장 등과 병행이 가능한가요?<span>▼</span></summary>
+                    <p>저희 과정은 평일 주 5일(공휴일 제외) 9:00 ~ 18:00 풀타임 강의로 진행되고 있습니다. 풀타임으로 온전히 참여하실 수 있는 분들을 우선 대상으로 선발하고 있습니다.
+                        학교/직장과 병행하더라도 수강시간 확보가 가능하신 경우에 교육 참여가 가능합니다🙌
+                    </p>
+                </details>
+                <details>
+                    <summary>Q. [교육] 사전 지식이 없는 비전공자도 수업을 따라갈 수 있을까요?<span>▼</span></summary>
+                    <p>저희는 사전 설문 내용을 토대로 지원자분들의 사전 지식을 고려하여 커리큘럼을 구성하고 있습니다.
+                        기존 다수의 비전공자분들 교육 경험을 바탕으로 강사진과 운영진이 더욱 세심한 관리와 교육으로 여러분의 걱정을 덜어 드리겠습니다 😎
+                    </p>
+                </details>
+            </div>
+        </section>
+    </main>
+    <div class="fixed-apply-button">
+        <p>🔥서두르세요! 얼마 남지 않았어요.</p>
+        <a class="flex justify-center items-center">지금 지원하기</a>
+    </div>
+    <button class="fixed-inquiry-button">
+        <img src="./images/inquiry_button.png" alt="문의">
+    </button>
+    <a href="#" class="fixed-scroll-top-button flex justify-center items-center">
+        <img src="./images/scroll_top_button.svg" alt="페이지 상단으로">
+    </a>
+    <footer class="footer">
+        <!-- footer 파트 구현 - 김세은 -->
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/footer_est_logo.png" alt="이스트캠프 로고">
+            </div>
+            <address class="footer-info">
+                <div class="compary_info">
+                    <p>대표이사 | 정상원</p>
+                    <p>사업자등록번호 | 229-81-03214</p>
+                    <p>통신판매업신고번호 | 2011-서울서초-1962</p>
+                </div>
+                <div class="address-info">
+                    <p>주소 | 서울시 서초구 반포대로3 이스트빌딩(우)06711</p>
+                    <p>연락처 | 02-583-4620</p>
+                </div>
+            </address>
+            <div class="footer-links">
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+            </div>
+            <p>본 사이트는 이스트 캠프 프론트엔드 페이지 리뉴얼 프로젝트로 이스트캠프와 연관이 없습니다. 원저작권은 이스트캠프에 있습니다.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
