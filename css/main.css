@@ -831,3 +831,65 @@ div.active > dl dd.supplement::before {
   font-weight: 600;
   white-space: pre-line;
 }
+
+/* popup */
+.popup {
+  position: fixed;
+  left: 100px;
+  top: 150px;
+  padding: 30px;
+  width: 600px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+}
+.popup-divide {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.popup a {
+  color: #007ac5;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.popup .popup-title h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.popup .popup-title p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.popup .popup-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.popup .popup-intro h3 {
+  font-weight: 500;
+}
+.popup .popup-intro p {
+  font-size: 14px;
+}
+.popup .popup-team {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.popup .popup-team h3 {
+  font-weight: 500;
+}
+.popup .popup-team p {
+  font-size: 14px;
+}
+.popup-close {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+}
